@@ -9,7 +9,7 @@ def main():
     
     doc=st.file_uploader("upload your document")
     
-    st.header("QA with Documents(Information Retrieval)")
+    st.header("Question answer with Documents(Information Retrieval)")
     
     user_question= st.text_input("Ask your question")
     
